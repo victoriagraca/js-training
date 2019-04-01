@@ -8,6 +8,9 @@
  */
 
 // Your code :
+function getLast (via){
+return via[via.length -1];
+}
 
 //* Begin of tests
 const assert = require('assert')
